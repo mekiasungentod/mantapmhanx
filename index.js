@@ -15,7 +15,8 @@ const responseHeadersToRemove = ["Accept-Ranges", "Content-Length", "Keep-Alive"
 
 (async () => {
     let options = {
-        args: ['--no-sandbox']
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     };
     if (process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD)
         options.executablePath = '/usr/bin/chromium-browser';
