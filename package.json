@@ -1,7 +1,6 @@
-
 {
   "name": "pupflare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,9 +13,6 @@
   "dependencies": {
     "jsesc": "^3.0.2",
     "koa": "^2.13.0",
-    "koa-bodyparser": "^4.3.0",
-    "puppeteer": "^5.5.0",
-    "puppeteer-extra": "^3.1.15",
-    "puppeteer-extra-plugin-stealth": "^2.6.5"
+    "koa-bodyparser": "^4.3.0"
   }
 }
